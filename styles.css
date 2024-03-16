@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+}
+
+main h3{
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+}
+
+body {
+    font-family: "Montserrat";
+    width: 1400px;
+    margin: 0 auto; 
+    overflow-x: hidden; 
+}
+
+header {
+    position: relative;
+    overflow: auto; 
+    padding-left: 200px;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+nav {
+    justify-content: center;
+    position: absolute;
+    top: 20px; 
+    right: 20px;
+    padding-right: 200px; 
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px; 
+    
+}
+
+ul li{
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#about-me {
+    margin-left: 200px;
+    width: 40%;
+    float: left;
+    height: auto; 
+}
+
+#my-photo {
+    float: right;
+    width: 30%;
+    height: auto; 
+    padding-right: 200px;
+}
+
+#my-photo img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%; 
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#projects{
+    margin-left: 200px;
+    width: 100%;
+    float: left;
+    height: auto; 
+}
+
+#projects ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects ul li{
+    margin-bottom: 10px;
+}
+
+#skills{
+    margin-left: 200px;
+    width: 40%;
+    float: left;
+    height: auto; 
+}
+
+#skills-pictures img{
+    width: 40px;
+    margin-right: 15px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    #about-me,
+    #my-photo {
+        width: 100%; 
+        float: none;
+    }
+}
+
